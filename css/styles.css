@@ -1,0 +1,117 @@
+/* цвет основного текста SLATE: #434455; */
+/*заголовки NAVY BLUE: #2E2F42; */
+/* акцент Iris: #4D5AE5; */
+/* вторичный цвет фона CLOUD: #F4F4FD; */
+/* top line color CORNFLOWER: #E7E9FC; */
+
+/* CSS variables */
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --primery-white-color: #ffffff;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primery-white-color);
+}
+
+.button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.button.primery {
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+    border: transparent;
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: #F4F4FD;
+    border: var(--accent-color);
+}
+
+/* Index.html */
+/*  Header */
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+
+.logo-first {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #000000;
+}
+
+/* Address */
+
+/* Main */
+/* Hero */
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* Sections */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+.features-list .title {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Projects */
+
+/* Profile */
+.profile-list .title {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Profile.html */
+
+/* projects */
+.projects-list .title {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
