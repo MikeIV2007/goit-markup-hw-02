@@ -81,7 +81,6 @@ body {
     color: var(--title-text-color);
 }
 
-/* #2E2F42 */
 /* Site nav */
 .site-nav .link {
     color: var(--title-text-color);
@@ -113,6 +112,11 @@ body {
     text-align: left;
 
     text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
 }
 
 /* Main */
