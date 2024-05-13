@@ -35,10 +35,10 @@ body {
     cursor: pointer
 }
 
-/* .button:hover,
+.button:hover,
 .button:focus {
-    color: #404BBF
-} */
+    background-color: #404BBF;
+}
 
 .button.primery {
     color: var(--primery-white-color);
@@ -46,10 +46,6 @@ body {
     border: transparent;
 }
 
-.button.primery:hover,
-.button.primery:focus {
-    color: #404BBF
-}
 
 .button.secondary {
     color: var(--accent-color);
@@ -57,10 +53,6 @@ body {
     border: var(--accent-color);
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
-    color: #404BBF
-}
 
 /* Index.html */
 /*  Header */
