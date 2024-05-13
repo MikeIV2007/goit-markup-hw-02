@@ -183,3 +183,12 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
 } */
+
+/* Footer */
+.footer {
+    background-color: var(--title-text-color);
+}
+
+.footer-text{
+    color:#F4F4FD
+}
