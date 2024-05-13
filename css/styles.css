@@ -65,6 +65,10 @@ button.primary:focus {
     text-decoration: none;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .logo {
     color: var(--accent-color);
 
@@ -187,9 +191,9 @@ button.primary:focus {
     background-color: var(--primery-white-color);
 }
 
-.project-reference .link{
+/* .project-reference .link{
     text-decoration: none
-}
+} */
 
 /* Profile.html */
 
