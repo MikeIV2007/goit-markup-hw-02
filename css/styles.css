@@ -173,6 +173,10 @@ button.primary:focus {
     background-color: #F4F4FD;
 }
 
+.profile-img{
+    background-color: var(--primery-white-color);
+}
+
 /* Profile.html */
 
 /* projects */
