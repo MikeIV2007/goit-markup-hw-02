@@ -47,9 +47,15 @@ button.primary:focus {
 }
 
 .button.secondary {
-    color: var(--accent-color);
+    color: #4d5ae5;
     background-color: #F4F4FD;
     border: var(--accent-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus{
+    color: var(--primery-white-color);
+    background-color: #404BBF;
 }
 
 
