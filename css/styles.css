@@ -35,17 +35,18 @@ body {
     cursor: pointer
 }
 
-.button:hover,
-.button:focus {
-    background-color: #404BBF;
-}
 
-.button.primery {
+
+.button.primary {
     color: var(--primery-white-color);
     background-color: var(--accent-color);
     border: transparent;
 }
 
+.button.primary:hover,
+button.primary:focus {
+    background-color: #404BBF;
+}
 
 .button.secondary {
     color: var(--accent-color);
@@ -150,6 +151,8 @@ body {
     font-weight: 700;
     line-height: 1.11;
     text-align: center;
+
+    text-transform: capitalize
 }
 
 /* Features */
