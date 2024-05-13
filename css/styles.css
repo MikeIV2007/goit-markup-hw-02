@@ -178,6 +178,10 @@ button.primary:focus {
     background-color: var(--primery-white-color);
 }
 
+.profile-item{
+    background-color: var(--primery-white-color);
+}
+
 /* Profile.html */
 
 /* projects */
