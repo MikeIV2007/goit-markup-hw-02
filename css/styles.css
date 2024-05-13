@@ -35,8 +35,6 @@ body {
     cursor: pointer
 }
 
-
-
 .button.primary {
     color: var(--primery-white-color);
     background-color: var(--accent-color);
@@ -171,15 +169,9 @@ button.primary:focus {
 /* Projects */
 
 /* Profile */
-/* .profile-list .title {
-    color: var(--title-text-color);
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: left;
-} */
+.profile {
+    background-color: #F4F4FD;
+}
 
 /* Profile.html */
 
