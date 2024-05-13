@@ -52,21 +52,25 @@ body {
 }
 
 .logo {
-    color: var(--title-text-color);
+    color: var(--accent-color);
+
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
+
+    text-transform: uppercase;
+    text-decoration: none
 }
 
 .logo:hover {
     color: var(--accent-color);
 }
 
-.logo-first {
-    color: var(--accent-color);
+.logo-span {
+    color: var(--title-text-color);
 }
 
 /* #2E2F42 */
@@ -82,7 +86,7 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #000000;
+    color: #404bbf
 }
 
 /* Address */
@@ -90,6 +94,7 @@ body {
     color: #434455;
 
     font-family: Roboto;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
