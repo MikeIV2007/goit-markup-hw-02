@@ -83,7 +83,7 @@ body {
     text-decoration: none
 }
 
-.logo .link{
+.logo .link {
     text-decoration: none
 }
 
@@ -204,6 +204,10 @@ body {
     background-color: var(--title-text-color);
 }
 
-.footer-text{
-    color:#F4F4FD
+.footer-text {
+    color: #F4F4FD
+}
+
+.footer .logo-span {
+    color: #f4f4fd
 }
